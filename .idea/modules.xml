@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AnangSmarthome.iml" filepath="$PROJECT_DIR$/AnangSmarthome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AnangSmarthome-Clone.iml" filepath="$PROJECT_DIR$/AnangSmarthome-Clone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

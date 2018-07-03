@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/mac/.android/build-cache/8fe898b5ba8f4cbbcfbf182b6603b3988cd2186d/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/mac/.android/build-cache/8fe898b5ba8f4cbbcfbf182b6603b3988cd2186d/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
         "merged": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
         "source": "/Users/mac/.android/build-cache/8fe898b5ba8f4cbbcfbf182b6603b3988cd2186d/output/res/layout-v21/notification_action_tombstone.xml"
     },
@@ -12,7 +20,15 @@
         "source": "/Users/mac/.android/build-cache/8fe898b5ba8f4cbbcfbf182b6603b3988cd2186d/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
+        "merged": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/mac/.android/build-cache/8fe898b5ba8f4cbbcfbf182b6603b3988cd2186d/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
         "merged": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
         "source": "/Users/mac/.android/build-cache/8fe898b5ba8f4cbbcfbf182b6603b3988cd2186d/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/mac/.android/build-cache/8fe898b5ba8f4cbbcfbf182b6603b3988cd2186d/output/res/layout-v21/notification_action.xml"
     }
 ]

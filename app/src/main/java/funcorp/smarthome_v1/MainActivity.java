@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
         sambung();
 
-
+        
         lampu_kamar_mandi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

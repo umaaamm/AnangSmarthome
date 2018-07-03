@@ -1,11 +1,35 @@
 [
     {
+        "merged": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_lock_open_black_24dp.png",
+        "source": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/res/mipmap-xxxhdpi/ic_lock_open_black_24dp.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_lock_outline_black_24dp.png",
+        "source": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/res/mipmap-xxxhdpi/ic_lock_outline_black_24dp.png"
+    },
+    {
         "merged": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_lock_open_black_24dp.png",
         "source": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome/app/src/main/res/mipmap-xxxhdpi/ic_lock_open_black_24dp.png"
     },
     {
         "merged": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
         "source": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_lock_open_black_48dp.png",
+        "source": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/res/mipmap-xxxhdpi/ic_lock_open_black_48dp.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_lock_outline_black_48dp.png",
+        "source": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/res/mipmap-xxxhdpi/ic_lock_outline_black_48dp.png"
     },
     {
         "merged": "/Users/mac/Documents/skripis umitra/anang/AnangSmarthome/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_lock_open_black_48dp.png",
