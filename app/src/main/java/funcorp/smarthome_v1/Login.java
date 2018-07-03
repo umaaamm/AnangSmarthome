@@ -1,9 +1,5 @@
 package funcorp.smarthome_v1;
 
-/**
- * Created by umaaamm on 01/04/18.
- */
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -18,11 +14,6 @@ import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 import com.firebase.client.ValueEventListener;
-
-
-/**
- * Created by umaaamm on 9/9/17.
- */
 
 public class Login extends AppCompatActivity {
     Firebase bacadata;

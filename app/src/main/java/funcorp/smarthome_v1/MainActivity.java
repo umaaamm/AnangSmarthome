@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView lampu_ruang_tamu,lampu_kamar_mandi,lampu_kamar_tidur,lampu_dapur,lampu_teras;
     String Slampu_kamar_mandi="mati",Slampu_kamar_tidur="mati",Slampu_ruang_tamu="mati",Slampu_dapur="mati",Slampu_teras="mati";
     SwipeRefreshLayout swipeRefreshLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,7 +65,8 @@ public class MainActivity extends AppCompatActivity {
         lampu_dapur = (ImageView) findViewById(R.id.lampu_dapur);
         lampu_teras = (ImageView) findViewById(R.id.lampu_teras);
         swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swiperefresh);
-        swipeRefreshLayout.setColorSchemeResources(R.color.colorPrimary,R.color.colorPrimary);
+
+        swipeRefreshLayout.setColorSchemeResources(R.color.colorPrimary, R.color.colorPrimary);
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -76,17 +78,15 @@ public class MainActivity extends AppCompatActivity {
 //                        cek();
                         finish();
                         startActivity(getIntent());
-
                         swipeRefreshLayout.setRefreshing(false);
 
                     }
-                },2000);
+                }, 2000);
             }
         });
 
         sambung();
 
-        
         lampu_kamar_mandi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -94,11 +94,11 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     if (Slampu_kamar_mandi.equals("hidup")) {
                         payload = "off";
-                        lampu_kamar_mandi.setImageResource(R.drawable.lamp_off);
+                        lampu_kamar_mandi.setImageResource(R.drawable.lamp_luar_off);
                         //Toast.makeText(this, "Status : " + payload, Toast.LENGTH_LONG).show();
                     }
                     if (Slampu_kamar_mandi.equals("mati")) {
-                        lampu_kamar_mandi.setImageResource(R.drawable.lamp_on);
+                        lampu_kamar_mandi.setImageResource(R.drawable.lamp_luar_on);
                         payload = "on";
                     }
 
@@ -268,7 +268,7 @@ public class MainActivity extends AppCompatActivity {
 //            e.printStackTrace();
 //        }
 //    }
-
+//
 //    //ruang kamar tidur
 //    public void Fruang_kamar_tidur(View view) {
 //
@@ -385,25 +385,17 @@ public class MainActivity extends AppCompatActivity {
 //        }
 //    }
 
-
-
     public  void sambung(){
         //"tcp://192.168.43.39:1883"
         clientId = MqttClient.generateClientId();
-        client =
-                new MqttAndroidClient(this.getApplicationContext(), "tcp://test.mosquitto.org:1883",
-                        clientId);
+        client = new MqttAndroidClient(this.getApplicationContext(), "tcp://test.mosquitto.org:1883", clientId);
         try {
             MqttConnectOptions options = new MqttConnectOptions();
             options.setMqttVersion(MqttConnectOptions.MQTT_VERSION_3_1);
-//            options.setUserName("fujimiya");
-//            options.setPassword("123".toCharArray());
             IMqttToken token = client.connect(options);
             token.setActionCallback(new IMqttActionListener() {
                 @Override
                 public void onSuccess(IMqttToken asyncActionToken) {
-                    // We are connected
-                    //Log.d(TAG, "onSuccess");
                     Toast.makeText(MainActivity.this,"Terhubung",Toast.LENGTH_SHORT).show();
                     cek();
                     cek();
@@ -445,7 +437,7 @@ public class MainActivity extends AppCompatActivity {
                             public void messageArrived(String topic, MqttMessage message) throws Exception {
                                 //Toast.makeText(MainActivity.this,"topic : "+topic+" message : "+message.toString(),Toast.LENGTH_SHORT).show();
                                 //setMessageNotification(topic,message.toString());
-
+                                String nama = ""+topic;
                                 if(topic.equals("status_L5KM")){
                                     Slampu_kamar_mandi = ""+message;
                                     if(Slampu_kamar_mandi.equals("hidup")){

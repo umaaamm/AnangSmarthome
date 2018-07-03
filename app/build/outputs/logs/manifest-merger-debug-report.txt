@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:2:1-28:12
+ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:2:1-35:12
 	package
 		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:3:5-35
 		INJECTED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml
@@ -17,8 +17,20 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:4:5-67
 	android:name
 		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:5:5-68
+	android:name
+		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:5:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:7:22-72
 application
-ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:5:5-26:19
+ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:9:5-33:19
 MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /Users/mac/.android/build-cache/d804a07f75305e724e54d148ffc3f136b2c20d9f/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mac/.android/build-cache/0f63f147e385146e6bf902ff2b519ac2a480be25/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:26.0.0-alpha1] /Users/mac/.android/build-cache/a4d456b45d614dc3346d4a4249fd092ac894e645/output/AndroidManifest.xml:29:5-20
@@ -33,39 +45,43 @@ MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/mac/.andr
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/mac/.android/build-cache/2b783b524e4acd8cd04f38041002342c4090ca7e/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/mac/.android/build-cache/32167d9ed56cc2e6d5d5406b6b209f229ce3f55d/output/AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:12:9-41
 	android:supportsRtl
-		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:14:9-35
 	android:roundIcon
-		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:10:9-35
 	android:icon
-		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:7:9-38
+		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:11:9-38
 	android:theme
-		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:15:9-40
 activity#funcorp.smarthome_v1.Login
-ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:12:9-14:20
+ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:16:9-18:20
 	android:name
-		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:12:19-40
+		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:16:19-40
 activity#funcorp.smarthome_v1.MainActivity
-ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:15:9-25:20
+ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:19:9-29:20
 	android:label
-		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:17:13-45
+		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:21:13-45
 	android:theme
-		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:18:13-56
+		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:22:13-56
 	android:name
-		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:20:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:26:27-74
+service#org.eclipse.paho.android.service.MqttService
+ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:31:9-32:19
+	android:name
+		ADDED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml:31:18-77
 uses-sdk
 INJECTED from /Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /Users/mac/.android/build-cache/d804a07f75305e724e54d148ffc3f136b2c20d9f/output/AndroidManifest.xml:20:5-44

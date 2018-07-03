@@ -1,4 +1,4 @@
-#Mon Jul 02 20:11:41 WIB 2018
-base.0=/Users/mac/Documents/skripis umitra/anang/AnangSmarthome/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5
+#Tue Jul 03 21:39:42 WIB 2018
+base.0=/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5
 renamed.0=classes.dex
-file.0=/Users/mac/Documents/skripis umitra/anang/AnangSmarthome/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex
+file.0=/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex

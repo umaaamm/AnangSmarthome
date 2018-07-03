@@ -1,7 +1,7 @@
-#Mon Jul 02 20:11:42 WIB 2018
-base.0=/Users/mac/Documents/skripis umitra/anang/AnangSmarthome/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_62449d9209ea61fd4fd0a10924f8f2c853e0d80c
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/mac/Documents/skripis umitra/anang/AnangSmarthome/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9be2cbc11ce455b7c397b0086671e772374d4c16/classes.dex
-base.1=/Users/mac/Documents/skripis umitra/anang/AnangSmarthome/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9be2cbc11ce455b7c397b0086671e772374d4c16
-file.0=/Users/mac/Documents/skripis umitra/anang/AnangSmarthome/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_62449d9209ea61fd4fd0a10924f8f2c853e0d80c/classes.dex
+#Tue Jul 03 21:33:23 WIB 2018
+base.0=/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_470921a51c4d38b0f696aab4f6657531198127c7
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2f1faa27a9d0932d95f01e4829dec9d1dbe3d83d/classes.dex
+base.1=/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2f1faa27a9d0932d95f01e4829dec9d1dbe3d83d
+file.0=/Users/mac/Documents/skripis umitra/anang/AnangSmarthome-Clone/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_470921a51c4d38b0f696aab4f6657531198127c7/classes.dex
